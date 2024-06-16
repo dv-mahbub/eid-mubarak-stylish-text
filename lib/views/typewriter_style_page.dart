@@ -1,5 +1,6 @@
 import 'package:eid_mubarak/global_widgets/custom_background.dart';
 import 'package:flutter/material.dart';
+import 'package:stylish_text/stylish_text.dart';
 
 class TypeWriterStylePage extends StatefulWidget {
   const TypeWriterStylePage({super.key});
@@ -11,9 +12,9 @@ class TypeWriterStylePage extends StatefulWidget {
 class _TypeWriterStylePageState extends State<TypeWriterStylePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: CustomBackground(
-        child: Container(),
+        child: TypewriterText('Eid-Al-Adha\nMubarak'),
       ),
     );
   }
