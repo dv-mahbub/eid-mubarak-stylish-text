@@ -24,7 +24,7 @@ class CustomBackground extends StatelessWidget {
           SizedBox(
             height: screenHeight / 1.4,
           ),
-          child
+          Expanded(child: child),
         ],
       ),
     );
